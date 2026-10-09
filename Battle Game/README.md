@@ -57,7 +57,9 @@ Ações de combate
 
 Atacar: ataca o inimigo, dando o dano determinado pelo ataque de cada arma.
 Defender: Você se defende, reduzindo o dano do inimigo pela metade (caso ele ataque na rodada).
-Desviar: Você desvia, há uma chance aleatória de não tomar dano de acordo com a dificuldade do jogo.
+Desviar: Você desvia, há uma chance de 50% de não tomar dano caso o inimigo ataque.
+
+As mesmas ações e condições valem para o inimigo, ou seja, se ele bloquear e você atacar, ele leva metade do dano, se ele desviar, ele também tem uma chance de desviar que varia entre nível fácil: 20%, médio: 35% e difícil: 50%
 
 
 Níveis de dificuldade
@@ -90,9 +92,13 @@ Quando o jogo solicitar a dificuldade, digite:
 
 Exemplo de partida
 
-Por exemplo, o jogador pode digitar 1 para selecionar a espada e depois 1 para selecionar a dificuldade fácil.
+Digite 1 para escolher a espada.
+Digite 1 para escolher a dificuldade fácil.
+Durante o combate, selecione a ação de ataque conforme o número apresentado pelo programa.
 
-Durante o combate, o jogador escolhe suas ações conforme as opções apresentadas pelo programa. Como o inimigo toma decisões aleatórias, o resultado de cada partida pode variar.
+Resultado possível: se o jogador atacar e o inimigo não conseguir evitar o golpe, o inimigo perderá vida. O dano exato dependerá das regras de cálculo e dos modificadores aplicados naquela rodada.
+
+Como as ações do inimigo e os resultados de desvio podem ser aleatórios, essa sequência não garante o mesmo resultado em todas as partidas.
 
 ## Estrutura do projeto
 
