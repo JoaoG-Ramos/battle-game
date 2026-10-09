@@ -4,7 +4,7 @@ Um jogo simples de luta em turnos, onde você escolhe uma arma, um nível de dif
 
 ## Demonstração
 
-![Demonstração do jogo](image.png)
+![Captura de tela do jogo](assets/image.png)
 
 ## Pré-requisitos
 
@@ -14,37 +14,26 @@ Um jogo simples de luta em turnos, onde você escolhe uma arma, um nível de dif
 
 ## Instalação
 
-1. Obter o projeto
+Abra o terminal e execute:
 
-Clone o repositório utilizando o Git:
+git clone https://github.com/JoaoG-Ramos/battle-game.git
+cd battle-game
 
-git clone URL_DO_SEU_REPOSITORIO
 
-Entre na pasta do projeto:
+Compilar o programa
 
-cd NOME_DO_REPOSITORIO
-
-2. Compilar o programa
-
-Se o código principal estiver no arquivo main.c e o compilador GCC estiver instalado, utilize:
+Na pasta do projeto, execute:
 
 gcc main.c -o battle
 
-Esse comando compila o código-fonte e gera um executável chamado battle ou battle.exe, dependendo do ambiente.
 
-Se o projeto utilizar outros arquivos-fonte, o comando de compilação deverá incluí-los também.
+Executar
 
-3. Executar o programa
-
-No Windows, execute:
+Windows:
 
 battle.exe
 
-No Linux, execute:
-
-./battle
-
-No macOS, execute:
+Linux/macOS:
 
 ./battle
 
@@ -76,8 +65,8 @@ O jogo possui configurações de dificuldade que alteram os atributos do inimigo
 
 Dificuldade	     Vida do inimigo    Dano do inimigo	   Chance de desvio
 Fácil	                50	               10	               50%
-Médio	                100	               20	               35%
-Difícil	                200	               45	               20%
+Médio	                100	               20	               50%
+Difícil	                200	               45	               50%
 
 ## Estrutura do projeto
 
@@ -85,8 +74,9 @@ battle-game/
 
 |-- README.md
 |-- LICENSE
-|-- image.png
-|__main.c
+|-- main.c
+|__ assets
+     |-- image.png
  
 
 
@@ -95,6 +85,7 @@ Descrição dos arquivos
 main.c: contém o código-fonte principal do jogo.
 README.md: apresenta o projeto e explica como instalar, executar e utilizar o programa.
 LICENSE: contém os termos da licença escolhida para o projeto.
+assets: contém o arquivo image.png
 image.png: imagem que demonstra o jogo em funcionamento.
 
 ## Licença
