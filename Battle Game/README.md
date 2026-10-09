@@ -59,18 +59,18 @@ Atacar: ataca o inimigo, dando o dano determinado pelo ataque de cada arma.
 Defender: Você se defende, reduzindo o dano do inimigo pela metade (caso ele ataque na rodada).
 Desviar: Você desvia, há uma chance de 50% de não tomar dano caso o inimigo ataque.
 
-As mesmas ações e condições valem para o inimigo, ou seja, se ele bloquear e você atacar, ele leva metade do dano, se ele desviar, ele também tem uma chance de desviar que varia entre nível fácil: 20%, médio: 35% e difícil: 50%
+As mesmas ações e condições valem para o inimigo, ou seja, se ele bloquear e você atacar, ele leva metade do dano, se ele desviar, ele também tem uma chance de desviar que sempre é de 20%
 
 
 Níveis de dificuldade
 
 O jogo possui configurações de dificuldade que alteram os atributos do inimigo.
 
-Dificuldade	     Vida do inimigo    Dano do inimigo	   Chance de desvio
+Dificuldade	   Vida do inimigo   Dano do inimigo  
 
-Fácil	                50	               10	               50%
-Médio	                100	               20	               50%
-Difícil	                200	               45	               50%
+Fácil	              50	            10      
+Médio	              100	            20	 
+Difícil	              200	            45	
 
 ## Exemplo de uso
 
